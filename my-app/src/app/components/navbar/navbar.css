@@ -1,0 +1,77 @@
+
+
+.NavbarComponent {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.NavbarComponent-in {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+/* background-color: rgb(198, 243, 150); */
+
+.navbar-one {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(207, 207, 207);
+}
+
+.navbar-one img {
+    width: 180px;   
+}
+
+.navbar-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 0rem 2rem;
+}
+
+.navbar-two a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-two a:hover {
+    color: green;
+}
+
+.navbar-three {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    padding: 0rem 2rem 0rem 0rem; 
+}
+
+.navbar-three a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.navbar-three a:hover {
+    background-color: black;
+    color: white;
+}

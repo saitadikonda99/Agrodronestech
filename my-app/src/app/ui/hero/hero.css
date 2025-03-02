@@ -1,0 +1,64 @@
+
+
+.HeroComponent {
+    width: 100%;
+}
+
+.HeroComponent-in {
+    width: 100%;
+    height: 150vh;
+    background-image: url('/drone.png'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+
+.hero-one {
+    width: 100%;
+    height: 50vh;
+}
+
+.hero-one-one {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.hero-one-one h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    color: black;
+    font-weight: 800;
+}
+
+.hero-one-two {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    padding: 1em 0rem 0rem 0rem;
+}
+
+.hero-one-two p {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+}
+
+.hero-two {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
