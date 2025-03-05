@@ -12,7 +12,7 @@ const About = () => {
                 <div className="about-two">
                     <div className="about-two-in">
                         <div className="about-two-one">
-                            <p>We are pioneers in agricultural <span>drone technology</span> , revolutionizing farming with cutting-edge solutions. Our mission is to make farming <span>smarter</span>, <span>faster</span>, and more <span>efficient</span>.</p>
+                            <p>We are pioneers in agricultural <span>drone technology</span>, revolutionizing farming with cutting-edge solutions. Our mission is to make farming <span>smarter</span>, <span>faster</span>, and more <span>efficient</span>.</p>
                         </div>
                         <div className="about-two-two">
                             <div className="about-box about-box-one">

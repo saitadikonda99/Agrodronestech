@@ -1,0 +1,178 @@
+.ContactComponent {
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+.ContactComponent-in {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-one {
+    width: 100%;
+}
+
+.contact-one h1 {
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(184, 222, 140);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.contact-two {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.contact-two-heading {
+    width: 100%;
+}
+
+.contact-two-heading h1 {
+    width: fit-content;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+
+.contact-three {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0rem;
+}
+
+.contactCard {
+    width: 48%;
+}
+
+.contactCard-in {
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+    background: repeating-linear-gradient(
+        45deg,
+        hsla(120, 25%, 35%, 0.1),
+        hsla(120, 25%, 35%, 0.1) 10px,
+        transparent 0,
+        transparent 20px
+    );
+    background-color: rgb(3, 45, 35);
+    color: white;
+    border-radius: 1rem;
+}
+
+.contactCard-in h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: rgb(184, 222, 140);
+}
+
+.contactCard-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: rgb(184, 222, 140);
+}
+
+.details span {
+    display: block;
+    font-weight: bold;
+    color: rgb(184, 222, 140);
+    margin-bottom: 0.25rem;
+}
+
+.details a, .details p {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Right Section Styles */
+.contactForm {
+    width: 48%;
+}
+
+.contactForm-in {
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+    background-color: rgb(242, 242, 242);
+    border-radius: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(3, 45, 35);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: rgb(184, 222, 140);
+    color: rgb(3, 45, 35);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-two-heading h1 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .contact-three {
+        flex-direction: column;
+        padding: 1.5rem 0rem;
+    }
+    
+    .contactCard,
+    .contactForm {
+        width: 100%;
+    }
+    
+    .contactCard-in,
+    .contactForm-in {
+        padding: 2rem;
+        height: auto;
+    }
+}
+
+/* Focus States */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgb(184, 222, 140);
+    box-shadow: 0 0 0 2px rgba(184, 222, 140, 0.1);
+}

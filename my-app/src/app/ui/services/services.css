@@ -1,0 +1,117 @@
+.ServicesComponent {
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+.ServicesComponent-in {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-one {
+    width: 100%;
+}
+
+.services-one h1 {
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(184, 222, 140);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.services-two {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.services-two h1 {
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.services-three {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+
+.servicesCard {
+    width: 32%;
+    cursor: pointer;
+     
+}
+
+
+.servicesCard-in {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(242, 242, 242);
+    border-radius: 1rem;
+}
+
+.servicesCard-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicesCard-one-one {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.servicesCard-one-one h1 {
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.servicesCard-one-one p {
+    width: fit-content;
+    font-size: 1rem;
+}
+
+.servicesCard-one-two {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.servicesCard-one-two svg {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+}
+
+.servicesCard-two {
+    width: 100%;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.servicesCard-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.servicesCard-in:hover {
+    background-color: rgb(3, 45, 35);
+    color: white;
+}
+
+.servicesCard-in:hover .servicesCard-one-two svg {
+    background-color: rgb(184, 222, 140);
+}
