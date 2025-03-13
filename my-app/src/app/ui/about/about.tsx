@@ -17,7 +17,7 @@ const About = () => {
                         <div className="about-two-two">
                             <div className="about-box about-box-one">
                                 <Image 
-                                    src='/about1.jpg'
+                                    src='/about/about1.jpg'
                                     alt="about1"
                                     width={400}
                                     height={400}
@@ -25,7 +25,7 @@ const About = () => {
                             </div>
                             <div className="about-box about-box-two">
                                 <Image 
-                                    src='/about2.jpg'
+                                    src='/about/about2.jpg'
                                     alt="about2"
                                     width={400}
                                     height={400}
