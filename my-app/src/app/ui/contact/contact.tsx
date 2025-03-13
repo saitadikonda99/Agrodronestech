@@ -42,7 +42,7 @@ const Contact = () => {
                   <div className="icon">✉️</div>
                   <div className="details">
                     <span>Email:</span>
-                    <a href="mailto:helderligcommercio@gmail.com">helderligcommercio@gmail.com</a>
+                    <a href="mailto:agrodronessales@gmail.com">agrodronessales@gmail.com</a>
                   </div>
                 </div>
                 
@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="icon">📞</div>
                   <div className="details">
                     <span>Phone:</span>
-                    <a href="tel:+919988669224">+91 9988669224</a>
+                    <a href="tel:+919347027509">+91 9347027509</a>
                   </div>
                 </div>
                 
@@ -59,9 +59,9 @@ const Contact = () => {
                   <div className="details">
                     <span>Address:</span>
                     <p>
-                      #39-4-12/4, Ground Floor,<br />
-                      Near Sudarshan Park, Muralinagar,<br />
-                      VISAKHAPATNAM, Pin:- 530007,<br />
+                      Galayagudem, Denduluru,<br />
+                      Near Sai baba temple,<br />
+                      West Godavari, Pin:- 534450,<br />
                       Andhra Pradesh, INDIA
                     </p>
                   </div>

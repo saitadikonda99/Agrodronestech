@@ -12,7 +12,7 @@ const servicesData = [
         title: "Drone Spraying",
         shortDescription: "Efficient crop spraying using advanced drone technology.",
         fullDescription: "Efficient crop spraying using advanced drone technology for precise application of pesticides and fertilizers. Our drones ensure even coverage while minimizing waste and environmental impact.",
-        image: "/service1.jpg",
+        image: "/services/DroneSpraying.jpeg",
         features: [
             "Precision spraying technology",
             "Coverage mapping",
@@ -26,7 +26,7 @@ const servicesData = [
         title: "Field Monitoring",
         shortDescription: "Real-time field data to optimize farming.",
         fullDescription: "Advanced field monitoring systems that provide real-time data on soil conditions, crop health, and environmental factors. Our technology helps farmers make informed decisions to optimize their farming practices and increase yields.",
-        image: "/service1.jpg",
+        image: "/services/service1.jpg",
         features: [
             "Soil health analysis",
             "Crop growth tracking",
@@ -40,7 +40,7 @@ const servicesData = [
         title: "AI Crop Analysis",
         shortDescription: "Analyze crop health using AI-driven insights.",
         fullDescription: "State-of-the-art artificial intelligence technology that analyzes crop health, predicts potential issues, and provides actionable insights. Our AI systems help identify diseases, pest infestations, and nutrient deficiencies before they become serious problems.",
-        image: "/service1.jpg",
+        image: "/services/service1.jpg",
         features: [
             "Disease detection",
             "Growth pattern analysis",

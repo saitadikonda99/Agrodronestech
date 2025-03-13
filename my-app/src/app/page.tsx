@@ -14,7 +14,7 @@ export default function Home() {
   return (
       <div className="HomeComponent">
         <div className="HomeComponent-in">
-          <Navbar />
+          <Navbar page='home'/>
           <Hero />
           <About /> 
           <Services />

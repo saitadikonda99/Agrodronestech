@@ -4,13 +4,17 @@ import Link from 'next/link'
 
 import './navbar.css'
 
-const Navbar = () => {
+interface NavbarProps {
+  page: string;
+}
+
+const Navbar = ({ page }: NavbarProps) => {
   return (
         <div className="NavbarComponent">
             <div className="NavbarComponent-in">
                 <div className="navbar-one">
                     <Image 
-                        src="/AGRO.png"
+                        src="/logos/AGRO.png"
                         alt="logo"
                         width={200}
                         height={200}
@@ -23,7 +27,7 @@ const Navbar = () => {
                     <Link href='/'>Products</Link>
                 </div>
                 <div className="navbar-three">
-                    <Link href='/'>Contact us</Link>
+                    {page === 'Products' ? <Link href='/'>Back to Home</Link> : <Link href='/'>Contact us</Link>}
                 </div>
             </div>
         </div>
