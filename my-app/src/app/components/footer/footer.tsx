@@ -10,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const handleScroll = (elementId: string) => {
@@ -35,10 +36,9 @@ const Footer = () => {
                             />
                         </div>
                         <div className="fo-two">
-                            <Link href="https://www.linkedin.com/in/tadikondasaimanikanta/" target='_blank' aria-label="LinkedIn Profile"><FaLinkedin /></Link>
-                            <Link href="https://github.com/saitadikonda99" target='_blank' aria-label="GitHub Profile"><FaGithub /></Link>
-                            <Link href="https://www.instagram.com/_sai.you/" target='_blank' aria-label="Instagram Profile"><FaInstagram /></Link>
-                            <Link href="https://x.com/sai_tadikonda_" target='_blank' aria-label="Twitter Profile"><FaXTwitter /></Link>
+                            <Link href="https://www.linkedin.com/company/agro-drones/" target='_blank' aria-label="LinkedIn Profile"><FaLinkedin /></Link>
+                            <Link href="https://whatsapp.com/channel/0029Vb7XdqNBFLgdwnHLEC0K" target='_blank' aria-label="WhatsApp Channel"><FaWhatsapp /></Link>
+                            <Link href="https://www.instagram.com/agrodronessales?igsh=cGdhaGN2amgxNjc0" target='_blank' aria-label="Instagram Profile"><FaInstagram /></Link>
                         </div>
                         <div className="fo-three">
                             <p>AgroDrone Tech is a leading provider of agricultural drone technology, revolutionizing farming with cutting-edge solutions. Our mission is to make farming smarter, faster, and more efficient.</p>
