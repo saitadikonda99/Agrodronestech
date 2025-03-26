@@ -147,6 +147,12 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    .ContactComponent-in {
+        width: 100%;
+    }
+
+
     .contact-two-heading h1 {
         font-size: 2rem;
         line-height: 2.8rem;

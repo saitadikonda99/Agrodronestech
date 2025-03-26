@@ -24,7 +24,7 @@ export const products = () => {
    ]
 
   return (
-        <div className="ProductsComponent">
+        <div className="ProductsComponent" id="products">
             <div className="ProductsComponent-in">
                 <div className="products-one">
                     <h1>Our Products</h1>

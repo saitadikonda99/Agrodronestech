@@ -55,7 +55,7 @@ const Services = () => {
     const [selectedService, setSelectedService] = useState<(typeof servicesData)[0] | null>(null);
 
     return (
-        <div className="ServicesComponent">
+        <div className="ServicesComponent" id="services">
             <div className="ServicesComponent-in">
                 <div className="services-one">
                     <h1>Our Services</h1>

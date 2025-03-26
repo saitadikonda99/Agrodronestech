@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    border: 2px solid rgb(245, 245, 245);
     border-radius: 1rem;
 }
 
@@ -74,4 +75,155 @@
 .navbar-three a:hover {
     background-color: black;
     color: white;
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+}
+
+.hamburger {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: black;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: black;
+  transition: all 0.3s;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger.open {
+  background: transparent;
+}
+
+.hamburger.open::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger.open::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar-one {
+        width: 20%;
+    }
+    .navbar-two {
+        width: 55%;
+    }
+    
+    .navbar-two a {
+        font-size: 1rem;
+    }
+    .navbar-three {
+        width: 25%;
+    }
+
+
+.navbar-three a {
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+   
+
+  .NavbarComponent-in {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(245, 245, 245);
+    position: relative;
+  }
+
+  .navbar-one {
+    width: 80%;
+    border: none;
+    padding: 0rem;
+  }
+
+  .navbar-one h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .mobile-menu-button {
+    display: block;
+    border: none;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    transform: none;
+  }
+
+  .navbar-two,
+  .navbar-three {
+    display: none;
+    width: 100%;
+    padding: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navbar-two.mobile-open,
+  .navbar-three.mobile-open {
+    display: flex;
+    border-top: 1px solid rgb(245, 245, 245);
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .navbar-two a {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.8rem 0;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .navbar-two a:hover {
+    background-color: rgba(0, 128, 0, 0.1);
+  }
+
+  .navbar-three {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-three a {
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
 }

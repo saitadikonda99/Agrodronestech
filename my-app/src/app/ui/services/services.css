@@ -44,9 +44,7 @@
 .servicesCard {
     width: 32%;
     cursor: pointer;
-     
 }
-
 
 .servicesCard-in {
     width: 100%;
@@ -114,4 +112,26 @@
 
 .servicesCard-in:hover .servicesCard-one-two svg {
     background-color: rgb(184, 222, 140);
+}
+
+
+@media (max-width: 768px) {
+    
+    .ServicesComponent-in {
+        width: 100%;
+    }
+
+    .services-two h1 {
+        font-size: 1rem;
+    }
+ 
+    .services-three {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .servicesCard {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
 }

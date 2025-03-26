@@ -224,3 +224,93 @@
     color: white;
     transform: none;
 }
+
+
+@media (max-width: 768px) {
+    .pro-one-in {
+        padding: .5rem 1rem;
+    }
+
+    .pro-one-in-one {
+        width: 30%;
+    }
+
+    .pro-one-in-two a {
+        font-size: 0.9rem;
+        padding: .4rem 0.8rem;
+    }
+
+    .pro-two-in {
+        width: 90%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pro-two-in-one {
+        width: 100%;
+    }
+
+    .pro-two-in-one input {
+        width: 100%;
+    }
+
+    .pro-two-in-two {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .pro-two-in-two select {
+        width: 50%;
+    }
+
+    .pro-three-in {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .ProductCardComponent {
+        width: 100%;
+    }
+
+    .ProductCardComponent-in {
+        flex-direction: column;
+    }
+
+    .productCard-one {
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    .product-two {
+        width: 100%;
+    }
+
+    .product-two-in-one {
+        padding: 0.5rem;
+    }
+
+    .product-two-in-one h1 {
+        font-size: 1.2rem;
+    }
+
+    .product-two-in-one p {
+        font-size: 0.9rem;
+    }
+
+    .product-two-in-two {
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .pagination {
+        gap: 4px;
+        padding: 15px;
+    }
+
+    .pagination button {
+        min-width: 35px;
+        height: 35px;
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
