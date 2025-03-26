@@ -96,7 +96,7 @@
     }
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
 
     .AboutComponent {
         padding: 4rem 1rem;
